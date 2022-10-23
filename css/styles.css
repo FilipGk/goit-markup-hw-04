@@ -333,6 +333,11 @@ h4 {
   gap: 10px;
 }
 
+.header-contact-wrapper div:hover svg {
+  --color5: var(--fancy-blue-color);
+  --color3: var(--fancy-blue-color);
+}
+
 .web-color {
   color: var(--fancy-blue-color);
 }
@@ -360,12 +365,19 @@ h4 {
   line-height: 1.71;
   color: #ffffff;
   margin: 0;
-  padding: 9px;
+  padding-block: 9px;
 }
 
 .footer-address-wrapper {
   padding-top: 10px;
-  padding-left: 215px;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-contact {
@@ -376,7 +388,7 @@ h4 {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   margin: 0;
-  padding: 9px;
+  padding-block: 9px;
   text-decoration: none;
 }
 
@@ -394,7 +406,6 @@ h4 {
   line-height: 2.2;
   color: #ffffff;
   text-decoration: none;
-  padding-left: 215px;
 }
 
 .logo-link-header {
@@ -458,8 +469,7 @@ h4 {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/banner-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -747,6 +757,10 @@ h4 {
   gap: 10px;
 }
 
+.our-team-icons-wrapper li:hover svg {
+  --color1: #ffffff;
+}
+
 .description-icon-wrapper {
   background-color: #f5f4fa;
   display: flex;
@@ -801,6 +815,11 @@ h4 {
 .our-clients-icon {
   --color2: var(--icon-color);
   --color3: var(--icon-color);
+}
+
+.our-clients div:hover svg {
+  --color2: var(--fancy-blue-color);
+  
 }
 
 .footer-icon-wrapper {
