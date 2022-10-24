@@ -470,6 +470,7 @@ h4 {
     ),
     url(../images/banner-background.jpg);
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -819,7 +820,6 @@ h4 {
 
 .our-clients div:hover svg {
   --color2: var(--fancy-blue-color);
-  
 }
 
 .footer-icon-wrapper {
